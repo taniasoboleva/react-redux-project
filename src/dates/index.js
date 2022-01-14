@@ -1,0 +1,1 @@
+export const formattedDate = (date) => dayjs(date).format('DD/MM/YY');
