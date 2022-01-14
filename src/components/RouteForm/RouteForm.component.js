@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import maponImg from "../../assets/mapon.svg";
 import { Form, Typography, DatePicker, message, Space } from "antd";
 import * as axios from "axios";
-import { MapView } from "../GoogleMap.js";
+// import { MapView } from "../GoogleMap.js";
 import Results from "../Results/Results.component";
 import { connect } from "react-redux";
 import { getList } from "../../actions/getList";
@@ -113,7 +113,7 @@ const RouteForm = (props) => {
         {showMap && (
           <>
             <Styles.MapContainer>
-              <MapView />
+              {/* <MapView /> */}
             </Styles.MapContainer>
             <Results />
           </>
